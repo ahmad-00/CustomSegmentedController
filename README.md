@@ -2,7 +2,7 @@
 Custom segmented container view controller which holds view controllers as children
 
 # Usage
-Just call class initializer and push to it
+Just call class's initializer and push to it
 
 # Usage Example
 let vc = CustomSegmentedController(title: "Main Title", backColor: UIColor.red, tabsTitle: ["First Tab title", "Second Tab title"], controllers: [FirstViewController(), SecondViewController()], selectedTab:"Index of defaulf selected controller")
